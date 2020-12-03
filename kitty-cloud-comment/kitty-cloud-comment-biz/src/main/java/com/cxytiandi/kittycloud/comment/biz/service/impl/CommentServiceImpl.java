@@ -1,7 +1,7 @@
 package com.cxytiandi.kittycloud.comment.biz.service.impl;
 
 import com.cxytiandi.kitty.common.page.Page;
-import com.cxytiandi.kitty.lock.idempotent.Idempotent;
+import com.cxytiandi.kitty.lock.idempotent.aspect.Idempotent;
 import com.cxytiandi.kittycloud.comment.biz.bo.CommentBO;
 import com.cxytiandi.kittycloud.comment.biz.convert.CommentBOConvert;
 import com.cxytiandi.kittycloud.comment.biz.convert.CommentDocumentConvert;
