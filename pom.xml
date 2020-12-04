@@ -24,6 +24,7 @@
         <swagger.version>1.9.1.RELEASE</swagger.version>
         <lombok.version>1.18.2</lombok.version>
         <jjwt.version>0.7.0</jjwt.version>
+        <elasticsearch.version>6.8.7</elasticsearch.version>
     </properties>
 
     <parent>
