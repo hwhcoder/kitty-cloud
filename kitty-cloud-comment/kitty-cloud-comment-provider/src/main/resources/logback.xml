@@ -4,7 +4,7 @@
     <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
 
     <property name="APP_NAME" value="kitty-cloud-comment-provider" />
-    <property name="APP_HOME" value="/Users/yinjihuan/Downloads"/>
+    <property name="APP_HOME" value="C:\\file\\tmp\\cloudlog"/>
     <property name="LOG_HOME_PATH" value="${APP_HOME}/logs"/>
     <property name="FILE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } --- [%t] %-40.40logger{39} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}" />
 
