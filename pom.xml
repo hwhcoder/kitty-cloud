@@ -24,6 +24,10 @@
         <swagger.version>1.9.1.RELEASE</swagger.version>
         <lombok.version>1.18.2</lombok.version>
         <jjwt.version>0.7.0</jjwt.version>
+        <!--因为本pom文件的父pom是spring-boot-starter-parent-->
+        <!--而spring-boot-starter-parent的父pom是spring-boot-dependencies-->
+        <!--然后spring-boot-dependencies里配置了<elasticsearch.version>6.4.3</elasticsearch.version>-->
+        <!--所以这边如果不覆盖的话，最终引入的es版本会是6.4.3-->
         <elasticsearch.version>6.8.7</elasticsearch.version>
     </properties>
 
