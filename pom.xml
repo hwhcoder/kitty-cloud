@@ -164,10 +164,10 @@
         </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>jcenter</id>
-            <url>http://jcenter.bintray.com</url>
-        </repository>
-    </repositories>
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>jcenter</id>-->
+            <!--<url>http://jcenter.bintray.com</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
 </project>
